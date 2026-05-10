@@ -1,0 +1,3852 @@
+[
+  {
+    "location": "Aarughat",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Amardaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Amargadhi",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "AmariArghakhanchi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Amlekhgunj",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Amuwa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Anbukhaireni",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "ArjunchaupariSyangja",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Arnaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Arunkhola",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "AryaBhanjyang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Attariya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Aurabani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Aurahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "AurahiDhanusha",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Auraiya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Badigad",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 dasy"
+  },
+  {
+    "location": "Badnihar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "BaglungBazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bagmara",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bagthala",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "BahauriPidari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bahrabise",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bahundangi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bahuni",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Baidauli",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BaisjangarTanahu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Balara",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Balawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Baletaxar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bamka",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Bandipur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Banepa",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bangalachuli",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bani",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Baniyani",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bankul",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BansbariMorang",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bansgadhi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Baragadhi",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Barahathawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bardaghat",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bardibas",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bariyarpatti",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bariyarpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Barju",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Barpak",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Basabasahi",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BASANTAPURBAZAR",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bastipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BastipurMakawanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bateshwor",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bauniya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bayalbas",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bayarghari",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bela",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "BelakaRampur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Belatari",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Belauri",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Belbari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Beldangi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BelhiChapena",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Belsot",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BeltarBasaha",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Beni",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Besisahar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhadrapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhagwanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhairahawa",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhajani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhaktapur",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhakundebesi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhaluwang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhandara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhangaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhawanipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhedetar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhimad",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bhiman",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhimphedi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhingri",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "BhisawaShikta",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhojpur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bhokraha",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BhurangTatopani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Bhurigaun",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Bijuwar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Bindabasini",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Biratchowk",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Biratnagar",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Birbas",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BirendraBazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Birgunj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Birtamod",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Biruwa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bishnupur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BishnupurSaptari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BishnupurSarlahi",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bishrampur",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Bitthad",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Bodebarsain",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Brahampuri",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Brahmadev",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Brindaban",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "BUDAR",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Budhabare",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Bulingtar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Burtibang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Buttabari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Butwal",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "ChainpurBajhang",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "ChainpurSankhuwasab",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ChakarghattiSunsari",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chakchake",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "ChakraghattaSarlahi",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chame",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Chanauli",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Chandranigahapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chandrauta",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ChanhiBazar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chapakot",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Charaali",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Charaudi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Charikot",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Chatara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ChaughadaBazar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chaumala",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chaurjahari",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chautara",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "ChawanniBeldandi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chidika",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Chinchu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chisapani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Chormara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Chyama",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DAIJEE",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DailekhBazaar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Daldale",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Damak",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Daman",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DamarChowk",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Damauli",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Damrabhitta",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Danabari",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DandaBazar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DarbangMyagdi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DarchulaKhalanga",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "DarvanPyuthan",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Dedgaun",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Devghat",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "DevtalBenauli",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "DewahiGonahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dewanganj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "DhadingBesi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhakdai",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dhalkebar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhanauji",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dhangadhi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhangadhimai",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dhankaul",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "DhankutaBazaar",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dhanusadham",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dharan",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dharke",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhaubini",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dhulabari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhulikhel",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dhunche",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Diktel",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Diman",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dingla",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Dipayal",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "DodharaChadani",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dudhauli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Duduwa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Duhabi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Duipiple",
+    "rateLight": 235,
+    "rateMedium": 245,
+    "ratePerExtraKg": 125,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dulegauda",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dullu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "DumariKalyanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Dumkibas",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dumre",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Dunai",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Durgauli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ekadara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Fattepur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "FatuwaHarsaha",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Fikkal",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "GaddaChauki",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gadhawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gaidakot",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Gaighat",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "GairBazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gajuri",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Galchi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Galkot",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Galyang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gamgadhi",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "GaneshpurKapilbastu",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "GaneshpurSiraha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Garuda",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gaur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gauradaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Gauriganj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "GaushalaMahottari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Geruwa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Geta",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ghachok",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ghorahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Godak",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Godawari",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "GodawariKailali",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Godeta",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gokuleshwor",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Gokulganga",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Golbazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "GOPETAR",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "GopigunjJamuniya",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "GorkhaBazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Gorusinge",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Gothalapani",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Gulariya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hakpara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Haldibari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Halesi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "HanspurKathpulla",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hanumannagr",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hapure",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "HaraiyaRupandehi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Harinagara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "HarinasTanahu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Haripur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Haripurwa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hariwon",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Harkapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Harnaiya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "HarnaiyaSiyari",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Harthok",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hasuliya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Hatemalochowk",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hatiya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Hekuli",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Hemja",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Hetauda",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Hile",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Holeri",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 Days"
+  },
+  {
+    "location": "IlamBazar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Inaruwa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Itahari",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jagarnathpur",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Jagatpur",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jahada",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "JajarkotKhalanga",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Jaleshwor",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Janakpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "JangalSahiya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jangrahawa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Jayanagar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jhalari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jhiljhile",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jhumka",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jhyalbas",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jiri",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "JitpurCharnumber",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jiwakhola",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Jogbuda",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Jogikuti",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jomsom",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Joshipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "JugedaKailali",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "JugediChitwan",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Jugle",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Jumla",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Kadmaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kakarbhitta",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kalabanjar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kalagaudi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kalaiya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kalikamai",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kalyanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KamalBazar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kanchibajar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kanyam",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Karaiyamai",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Karsiya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KatahariMornag",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Katahariya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KATARI",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kathmandu",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kaudena",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kawasoti",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "KerabariMorang",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KerkhaBazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khadadevi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khairahani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "KhaireniRupandehi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khajura",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KhajuriChanha",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khandanda",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khandbari",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khayarmara",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khimti",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khudibazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khudunabari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Khurkot",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kirtipur",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kohalpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Kolhabi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kolti",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kotihawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Krishnanagar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KrishnanagarMadi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Krishnapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "KristiNachnechaur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kuntabesi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kurintar",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kushma",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Kushmishera",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Labani",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lagma",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lahan",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Lalbandi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Lalitpur",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Laljhadi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lamahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lamki",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Latinath",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Laukahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "LaxmipurPatari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lekhnath",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Lele",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Letang",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "LikhuDhobi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Liwang",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Loharpatti",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lokaha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lothar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lubhu",
+    "rateLight": 100,
+    "rateMedium": 100,
+    "ratePerExtraKg": 50,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Luham",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Lukla",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Lumbini",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Madhopur",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Madhumalla",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "MadiPalpa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MAHADEVA",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MaharajgunjKapilbas",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MahashilaLunkhu",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mahendranagar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MaheshpurThuthibari",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Maheshwori",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mahottari",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Mahuli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mainapokhari",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Majhagawa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MajhgaunKamahariya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Majhuwa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Makwanpurgadhi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Malangwa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Malekhu",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Manahari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Manakamana",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Manara",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Manebhanjyang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MangalbareIlam",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mangalsen",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Manigram",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Manjhariya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Manma",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ManpurMainapokhar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Manthali",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "MarphaMustang",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Martadi",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Masuriya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Matihani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Matsari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Maulapur",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Meghauli",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mehelkuna",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Melamchi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Mirchaiya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Mirmiphat",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Motipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "MuktinathMustang",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Mungling",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Murgiya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Musikot",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Myanglung",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nadhiman",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 97,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nagarain",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nagarkot",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "NalagadhKalimati",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "NamcheBazar",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Naraha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "NarainapurBanke",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Narayanghat",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "NarayanpurDang",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "NaudandaKaski",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nawarajpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nepalgunj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "NepaltarIlam",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "NepaltarUdayapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Netachowk",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Nijgadh",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Odari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Okhaldhunga",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pacharauta",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PadamPokhari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Padampur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pahalmanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pakadi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PakahaMainpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pakhribas",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pakkadi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Palungtar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pame",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Panauti",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Panmara",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PARASI",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "ParsaSarlahi",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Parwanipur",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pashupatinagar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PatanBaitadi",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PaterwaSugauli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pathari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Patichaur",
+    "rateLight": 235,
+    "rateMedium": 245,
+    "ratePerExtraKg": 125,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pato",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phalebas",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phalebisaune",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phaparbari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pharping",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Pharsatikar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phedikhola",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PhetaBazar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phidim",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PhulbariKailali",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Phungling",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Piluwa",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pipra",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Piprahawa",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Pokhara",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Pokhariya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Prakashpur",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Prasauni",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PumdiPokhara",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Punarbas",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Puranchaur",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Putalibazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PutaliChowk",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "PyuthanKhalanga",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ragaicha",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rajahar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rajapur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rajarani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rajbiraj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Rajdevi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rajgadh",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ramailo",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "RamechhapBazar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ramgopalpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ramnagar",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "RamnagarKhairawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "RampurPalpa",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rangeli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Ranke",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Ratanpur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "RatuwamaiSombare",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Ridi",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rukumkot",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Rupani",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Rupnagar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sabaila",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SakhadaChhinnamasta",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SakhuwaPrasauni",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SAKUWAMAHENDRANAGAR",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Salleri",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SalliBazar",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SalyanKhalanga",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Samanpur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Samshergunj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Samsi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sandhikharka",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sanfebagar",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "4-5 days"
+  },
+  {
+    "location": "Sangrampur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sanischare",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Sankhu",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Sapahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sarangkot",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sardi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Saruwatha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Satti",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sauraha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sedhawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Shaktikhor",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ShantinagarJhapa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Shantipur",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sharanamati",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Shivagunj",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "ShreeAntu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sidhuwa",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Silgadhi",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Simaltari",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Simara",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Simikot",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Simrangadh",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sindhuli",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "SINGATATOPANI",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Singati",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Siraha",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sisaniya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sonama",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Subarna",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sukhipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sukkhad",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sulichaur",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "3-4 days"
+  },
+  {
+    "location": "Sunawal",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Sundarbazar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Sundarijal",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Sunjhoda",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Surkhet",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Surunga",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Suryapura",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "SyauleBazar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tamghas",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tamnagar",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tandi",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Tansen",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "TarakholaBaglung",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "TarapattiSirsiya",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Taratal",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Taulihawa",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "TerhathumBasantapur",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Thankot",
+    "rateLight": 150,
+    "rateMedium": 150,
+    "ratePerExtraKg": 75,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Tharmare",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "TharpuTanahu",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Thori",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "THUTIPIPAL",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "TigerTopHill",
+    "rateLight": 155,
+    "rateMedium": 165,
+    "ratePerExtraKg": 85,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Tikapur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tinkoriya",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tinpiple",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "TopaBazar",
+    "rateLight": 180,
+    "rateMedium": 190,
+    "ratePerExtraKg": 98,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Trishuli",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Tulsipur",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Tulsiyahi",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Tumlingtar",
+    "rateLight": 255,
+    "rateMedium": 265,
+    "ratePerExtraKg": 135,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "Urlabari",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Waling",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "1-2 days"
+  },
+  {
+    "location": "Wamitaksar",
+    "rateLight": 230,
+    "rateMedium": 240,
+    "ratePerExtraKg": 123,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "YADUKUSH",
+    "rateLight": 205,
+    "rateMedium": 215,
+    "ratePerExtraKg": 110,
+    "deliveryTime": "2-3 days"
+  },
+  {
+    "location": "1. Cancellation Charge = 85% of Delivery Charge.",
+    "rateLight": 0,
+    "rateMedium": 0,
+    "ratePerExtraKg": 0,
+    "deliveryTime": "2-3 days"
+  }
+]

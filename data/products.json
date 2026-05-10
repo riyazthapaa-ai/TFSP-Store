@@ -1,0 +1,153 @@
+[
+  {
+    "id": "tee-crow",
+    "slug": "the-crow",
+    "name": "The Crow",
+    "category": "tees",
+    "collection": "Exhibit A - TFSP Collection",
+    "tagline": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "description": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "price": 1599,
+    "oldPrice": 1800,
+    "badge": "NEW",
+    "stock": 18,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Charcoal Grey"],
+    "imageUrl": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Crow+-+White",
+    "colorImages": {
+      "White": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Crow+-+White",
+      "Charcoal Grey": "https://placehold.co/900x1100/3a3a3a/f5f2ed?text=The+Crow+-+Charcoal+Grey"
+    }
+  },
+  {
+    "id": "tee-ritual",
+    "slug": "the-ritual",
+    "name": "The Ritual",
+    "category": "tees",
+    "collection": "Exhibit A - TFSP Collection",
+    "tagline": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "description": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "price": 1599,
+    "oldPrice": 1800,
+    "badge": "NEW",
+    "stock": 14,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Charcoal Grey"],
+    "imageUrl": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Ritual+-+White",
+    "colorImages": {
+      "White": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Ritual+-+White",
+      "Charcoal Grey": "https://placehold.co/900x1100/3a3a3a/f5f2ed?text=The+Ritual+-+Charcoal+Grey"
+    }
+  },
+  {
+    "id": "tee-star",
+    "slug": "the-star",
+    "name": "The Star",
+    "category": "tees",
+    "collection": "Exhibit A - TFSP Collection",
+    "tagline": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "description": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "price": 1599,
+    "oldPrice": 1800,
+    "badge": "LIMITED",
+    "stock": 9,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Charcoal Grey"],
+    "imageUrl": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Star+-+White",
+    "colorImages": {
+      "White": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Star+-+White",
+      "Charcoal Grey": "https://placehold.co/900x1100/3a3a3a/f5f2ed?text=The+Star+-+Charcoal+Grey"
+    }
+  },
+  {
+    "id": "tee-birth",
+    "slug": "the-birth",
+    "name": "The Birth",
+    "category": "tees",
+    "collection": "Exhibit A - TFSP Collection",
+    "tagline": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "description": "Boxy oversized cropped fit. Breathable and comfortable for summer wear.",
+    "price": 1599,
+    "oldPrice": 1800,
+    "badge": "LIMITED",
+    "stock": 7,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Charcoal Grey"],
+    "imageUrl": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Birth+-+White",
+    "colorImages": {
+      "White": "https://placehold.co/900x1100/f1f1f1/121212?text=The+Birth+-+White",
+      "Charcoal Grey": "https://placehold.co/900x1100/3a3a3a/f5f2ed?text=The+Birth+-+Charcoal+Grey"
+    }
+  },
+  {
+    "id": "sticker-pack",
+    "slug": "tfsp-sticker-pack",
+    "name": "TFSP Sticker Pack",
+    "category": "stickers",
+    "collection": "TFSP Sticker Collection",
+    "tagline": "Street-ready sticker bundle for laptops, boards, and walls.",
+    "description": "Street-ready sticker bundle for laptops, boards, and walls.",
+    "price": 40,
+    "minQty": 15,
+    "badge": "NEW",
+    "stock": 999,
+    "imageUrl": "https://placehold.co/900x1100/121212/f5f2ed?text=TFSP+Sticker+Collection"
+  },
+  {
+    "id": "sticker-exhibit-a",
+    "slug": "exhibit-a-series-stickers",
+    "name": "Exhibit A Series",
+    "category": "stickers",
+    "collection": "TFSP Sticker Collection",
+    "tagline": "Limited Exhibit A sticker cuts. Waterproof matte print.",
+    "description": "Limited Exhibit A sticker cuts. Waterproof matte print.",
+    "price": 40,
+    "minQty": 15,
+    "badge": "LIMITED",
+    "stock": 999,
+    "imageUrl": "https://placehold.co/900x1100/121212/f5f2ed?text=Exhibit+A+Sticker+Series"
+  },
+  {
+    "id": "sticker-custom-design",
+    "slug": "custom-sticker-design",
+    "name": "Custom Sticker Design",
+    "category": "stickers",
+    "collection": "Custom Designs",
+    "tagline": "Upload your own sticker design. Same pricing as regular stickers.",
+    "description": "Upload your own image for custom stickers. Pricing NPR 40/pc, minimum 15 pieces.",
+    "price": 40,
+    "minQty": 15,
+    "stock": 999,
+    "customDesign": true,
+    "imageUrl": "https://placehold.co/900x1100/1a1a1a/f5f2ed?text=Custom+Sticker+Design"
+  },
+  {
+    "id": "poster-tfsp-collection",
+    "slug": "tfsp-poster-collection",
+    "name": "TFSP Poster Collection",
+    "category": "posters",
+    "collection": "TFSP Poster Collection",
+    "tagline": "Pre-made TFSP posters with your preferred size and paper finish.",
+    "description": "Pick A4/A3 and Artboard Glossy/Ivory in product details.",
+    "price": 150,
+    "stock": 220,
+    "sizes": ["A4", "A3"],
+    "paperTypes": ["Artboard Glossy", "Ivory"],
+    "imageUrl": "https://placehold.co/900x1100/101010/f5f2ed?text=TFSP+Poster+Collection"
+  },
+  {
+    "id": "poster-custom-design",
+    "slug": "custom-poster-design",
+    "name": "Custom Poster",
+    "category": "posters",
+    "collection": "Custom",
+    "tagline": "Upload your own image and choose print size/paper type.",
+    "description": "Custom poster prints with A4/A3 and Artboard Glossy/Ivory options.",
+    "price": 150,
+    "stock": 999,
+    "sizes": ["A4", "A3"],
+    "paperTypes": ["Artboard Glossy", "Ivory"],
+    "customDesign": true,
+    "imageUrl": "https://placehold.co/900x1100/1a1a1a/f5f2ed?text=Custom+Poster+Design"
+  }
+]
