@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TFSP Records</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --surface2: #1a1a1a;
+      --border: #2a2a2a;
+      --text: #f5f2ed;
+      --text-dim: #8a8a8a;
+      --accent: #e63946;
+      --green: #2ecc71;
+      --yellow: #f39c12;
+      --blue: #3498db;
+    }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    
+    /* Header */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo { font-size: 1.5rem; font-weight: 900; letter-spacing: 2px; }
+    .logo span { color: var(--accent); }
+    .header-actions { display: flex; gap: 0.5rem; }
+    
+    /* Navigation */
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+    }
+    nav button {
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    nav button.active { color: var(--text); border-bottom-color: var(--accent); }
+    nav button:hover { color: var(--text); }
+    
+    /* Main */
+    main { padding: 2rem; max-width: 1400px; margin: 0 auto; }
+    
+    /* Stats Cards */
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
+    .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.5rem; }
+    .stat-card .value.green { color: var(--green); }
+    .stat-card .value.yellow { color: var(--yellow); }
+    .stat-card .value.blue { color: var(--blue); }
+    .stat-card .value.red { color: var(--accent); }
+    
+    /* Section */
+    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .section-header h2 { font-size: 1.2rem; font-weight: 600; }
+    
+    /* Buttons */
+    .btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+    .btn-outline:hover { border-color: var(--text-dim); }
+    .btn-sm { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
+    .btn-green { background: var(--green); }
+    .btn-yellow { background: var(--yellow); color: #000; }
+    .btn-danger { background: #c0392b; }
+    
+    /* Table */
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      text-align: left;
+      padding: 0.8rem 1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-dim);
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 0.8rem 1rem;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: var(--surface2); }
+    
+    /* Status badges */
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .badge-pending { background: rgba(243,156,18,0.15); color: var(--yellow); }
+    .badge-confirmed { background: rgba(52,152,219,0.15); color: var(--blue); }
+    .badge-shipped { background: rgba(155,89,182,0.15); color: #9b59b6; }
+    .badge-delivered { background: rgba(46,204,113,0.15); color: var(--green); }
+    .badge-cancelled { background: rgba(192,57,43,0.15); color: #e74c3c; }
+    
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 90%;
+      max-width: 500px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .modal h3 { margin-bottom: 1.5rem; font-size: 1.1rem; }
+    .form-group { margin-bottom: 1rem; }
+    .form-group label { display: block; font-size: 0.8rem; color: var(--text-dim); margin-bottom: 0.4rem; }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.7rem;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    .form-group input:focus, .form-group select:focus { outline: none; border-color: var(--accent); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .modal-actions { display: flex; gap: 0.5rem; justify-content: flex-end; margin-top: 1.5rem; }
+    
+    /* Empty state */
+    .empty { text-align: center; padding: 3rem; color: var(--text-dim); }
+    .empty p { margin-top: 0.5rem; font-size: 0.9rem; }
+    
+    /* Tab content */
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    
+    /* Filter row */
+    .filter-row { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .filter-row select, .filter-row input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 0.8rem;
+      color: var(--text);
+      font-size: 0.8rem;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      main { padding: 1rem; }
+      .stats { grid-template-columns: 1fr 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      nav { padding: 0 1rem; }
+      nav button { padding: 0.8rem 1rem; font-size: 0.8rem; }
+      .table-wrap { overflow-x: auto; }
+      table { min-width: 600px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">TFSP <span>Records</span></div>
+    <div class="header-actions">
+      <button class="btn-outline" onclick="exportData()">Export</button>
+      <button class="btn-outline" onclick="document.getElementById('importFile').click()">Import</button>
+      <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+    </div>
+  </header>
+  
+  <nav>
+    <button class="active" onclick="switchTab('dashboard')">Dashboard</button>
+    <button onclick="switchTab('orders')">Orders</button>
+    <button onclick="switchTab('inventory')">Inventory</button>
+    <button onclick="switchTab('expenses')">Expenses</button>
+    <button onclick="switchTab('customers')">Customers</button>
+  </nav>
+  
+  <main>
+    <!-- DASHBOARD -->
+    <div id="tab-dashboard" class="tab-content active">
+      <div class="stats" id="dashStats"></div>
+      <div class="section-header"><h2>Recent Orders</h2></div>
+      <div class="table-wrap" id="recentOrders"></div>
+    </div>
+    
+    <!-- ORDERS -->
+    <div id="tab-orders" class="tab-content">
+      <div class="section-header">
+        <h2>All Orders</h2>
+        <button class="btn" onclick="openModal('order')">+ New Order</button>
+      </div>
+      <div class="filter-row">
+        <select id="orderStatusFilter" onchange="renderOrders()">
+          <option value="all">All Status</option>
+          <option value="pending">Pending</option>
+          <option value="confirmed">Confirmed</option>
+          <option value="shipped">Shipped</option>
+          <option value="delivered">Delivered</option>
+          <option value="cancelled">Cancelled</option>
+        </select>
+        <input type="text" id="orderSearch" placeholder="Search name/phone..." oninput="renderOrders()">
+      </div>
+      <div class="table-wrap" id="ordersTable"></div>
+    </div>
+    
+    <!-- INVENTORY -->
+    <div id="tab-inventory" class="tab-content">
+      <div class="section-header">
+        <h2>Inventory</h2>
+        <button class="btn" onclick="openModal('inventory')">+ Add Item</button>
+      </div>
+      <div class="table-wrap" id="inventoryTable"></div>
+    </div>
+    
+    <!-- EXPENSES -->
+    <div id="tab-expenses" class="tab-content">
+      <div class="section-header">
+        <h2>Expenses</h2>
+        <button class="btn" onclick="openModal('expense')">+ Add Expense</button>
+      </div>
+      <div class="filter-row">
+        <select id="expenseMonthFilter" onchange="renderExpenses()">
+          <option value="all">All Months</option>
+        </select>
+      </div>
+      <div class="stats" id="expenseStats"></div>
+      <div class="table-wrap" id="expensesTable"></div>
+    </div>
+    
+    <!-- CUSTOMERS -->
+    <div id="tab-customers" class="tab-content">
+      <div class="section-header"><h2>Customers</h2></div>
+      <div class="table-wrap" id="customersTable"></div>
+    </div>
+  </main>
+  
+  <!-- ORDER MODAL -->
+  <div class="modal-overlay" id="modal-order">
+    <div class="modal">
+      <h3>New Order</h3>
+      <div class="form-group">
+        <label>Customer Name</label>
+        <input type="text" id="ord-name">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="text" id="ord-phone" placeholder="+977...">
+        </div>
+        <div class="form-group">
+          <label>Location</label>
+          <input type="text" id="ord-location">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Items (e.g. "2x The Crow Tee - White - L")</label>
+        <textarea id="ord-items" rows="3"></textarea>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Total Amount (NPR)</label>
+          <input type="number" id="ord-amount">
+        </div>
+        <div class="form-group">
+          <label>Shipping (NPR)</label>
+          <input type="number" id="ord-shipping" value="100">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Status</label>
+        <select id="ord-status">
+          <option value="pending">Pending</option>
+          <option value="confirmed">Confirmed</option>
+          <option value="shipped">Shipped</option>
+          <option value="delivered">Delivered</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Notes</label>
+        <input type="text" id="ord-notes">
+      </div>
+      <div class="modal-actions">
+        <button class="btn-outline" onclick="closeModal('order')">Cancel</button>
+        <button class="btn" onclick="saveOrder()">Save Order</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- INVENTORY MODAL -->
+  <div class="modal-overlay" id="modal-inventory">
+    <div class="modal">
+      <h3>Add Inventory Item</h3>
+      <div class="form-group">
+        <label>Product Name</label>
+        <input type="text" id="inv-name">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Category</label>
+          <select id="inv-category">
+            <option value="tees">Tees</option>
+            <option value="stickers">Stickers</option>
+            <option value="posters">Posters</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Variant (size/color)</label>
+          <input type="text" id="inv-variant" placeholder="e.g. White - L">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Stock Qty</label>
+          <input type="number" id="inv-stock">
+        </div>
+        <div class="form-group">
+          <label>Cost Price (NPR)</label>
+          <input type="number" id="inv-cost">
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-outline" onclick="closeModal('inventory')">Cancel</button>
+        <button class="btn" onclick="saveInventory()">Save</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- EXPENSE MODAL -->
+  <div class="modal-overlay" id="modal-expense">
+    <div class="modal">
+      <h3>Add Expense</h3>
+      <div class="form-group">
+        <label>Description</label>
+        <input type="text" id="exp-desc" placeholder="e.g. T-shirt printing batch">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Category</label>
+          <select id="exp-category">
+            <option value="printing">Printing</option>
+            <option value="shipping">Shipping</option>
+            <option value="materials">Materials</option>
+            <option value="packaging">Packaging</option>
+            <option value="marketing">Marketing</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Amount (NPR)</label>
+          <input type="number" id="exp-amount">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Date</label>
+        <input type="date" id="exp-date">
+      </div>
+      <div class="modal-actions">
+        <button class="btn-outline" onclick="closeModal('expense')">Cancel</button>
+        <button class="btn" onclick="saveExpense()">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // DATA STORE
+    const DB_KEY = 'tfsp_records';
+    
+    function getDB() {
+      const raw = localStorage.getItem(DB_KEY);
+      if (raw) return JSON.parse(raw);
+      return { orders: [], inventory: [], expenses: [] };
+    }
+    
+    function saveDB(db) {
+      localStorage.setItem(DB_KEY, JSON.stringify(db));
+    }
+    
+    // TABS
+    function switchTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('nav button').forEach(el => el.classList.remove('active'));
+      document.getElementById('tab-' + tab).classList.add('active');
+      event.target.classList.add('active');
+      render();
+    }
+    
+    // MODALS
+    function openModal(type) {
+      document.getElementById('modal-' + type).classList.add('active');
+      if (type === 'expense') {
+        document.getElementById('exp-date').value = new Date().toISOString().split('T')[0];
+      }
+    }
+    function closeModal(type) {
+      document.getElementById('modal-' + type).classList.remove('active');
+    }
+    
+    // FORMAT
+    function formatNpr(n) { return 'Rs ' + Number(n).toLocaleString('en-IN'); }
+    function formatDate(d) { 
+      const date = new Date(d);
+      return date.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+    }
+    
+    // SAVE ORDER
+    function saveOrder() {
+      const db = getDB();
+      const order = {
+        id: 'ORD-' + String(db.orders.length + 1).padStart(3, '0'),
+        name: document.getElementById('ord-name').value,
+        phone: document.getElementById('ord-phone').value,
+        location: document.getElementById('ord-location').value,
+        items: document.getElementById('ord-items').value,
+        amount: Number(document.getElementById('ord-amount').value),
+        shipping: Number(document.getElementById('ord-shipping').value),
+        status: document.getElementById('ord-status').value,
+        notes: document.getElementById('ord-notes').value,
+        date: new Date().toISOString(),
+      };
+      if (!order.name || !order.amount) return alert('Name and amount required');
+      db.orders.unshift(order);
+      saveDB(db);
+      closeModal('order');
+      clearForm('ord', ['name','phone','location','items','amount','shipping','status','notes']);
+      render();
+    }
+    
+    // SAVE INVENTORY
+    function saveInventory() {
+      const db = getDB();
+      const item = {
+        id: 'INV-' + Date.now(),
+        name: document.getElementById('inv-name').value,
+        category: document.getElementById('inv-category').value,
+        variant: document.getElementById('inv-variant').value,
+        stock: Number(document.getElementById('inv-stock').value),
+        cost: Number(document.getElementById('inv-cost').value),
+      };
+      if (!item.name) return alert('Product name required');
+      db.inventory.push(item);
+      saveDB(db);
+      closeModal('inventory');
+      render();
+    }
+    
+    // SAVE EXPENSE
+    function saveExpense() {
+      const db = getDB();
+      const exp = {
+        id: 'EXP-' + Date.now(),
+        desc: document.getElementById('exp-desc').value,
+        category: document.getElementById('exp-category').value,
+        amount: Number(document.getElementById('exp-amount').value),
+        date: document.getElementById('exp-date').value,
+      };
+      if (!exp.desc || !exp.amount) return alert('Description and amount required');
+      db.expenses.push(exp);
+      saveDB(db);
+      closeModal('expense');
+      render();
+    }
+    
+    function clearForm(prefix, fields) {
+      fields.forEach(f => {
+        const el = document.getElementById(prefix + '-' + f);
+        if (el) el.value = '';
+      });
+    }
+    
+    // UPDATE ORDER STATUS
+    function updateOrderStatus(id, status) {
+      const db = getDB();
+      const order = db.orders.find(o => o.id === id);
+      if (order) { order.status = status; saveDB(db); render(); }
+    }
+    
+    // DELETE
+    function deleteOrder(id) {
+      if (!confirm('Delete this order?')) return;
+      const db = getDB();
+      db.orders = db.orders.filter(o => o.id !== id);
+      saveDB(db);
+      render();
+    }
+    function deleteInventory(id) {
+      if (!confirm('Delete this item?')) return;
+      const db = getDB();
+      db.inventory = db.inventory.filter(i => i.id !== id);
+      saveDB(db);
+      render();
+    }
+    function deleteExpense(id) {
+      if (!confirm('Delete this expense?')) return;
+      const db = getDB();
+      db.expenses = db.expenses.filter(e => e.id !== id);
+      saveDB(db);
+      render();
+    }
+    
+    // RENDER
+    function render() {
+      renderDashboard();
+      renderOrders();
+      renderInventory();
+      renderExpenses();
+      renderCustomers();
+    }
+    
+    function renderDashboard() {
+      const db = getDB();
+      const totalRevenue = db.orders.filter(o => o.status !== 'cancelled').reduce((s, o) => s + o.amount + (o.shipping || 0), 0);
+      const totalExpenses = db.expenses.reduce((s, e) => s + e.amount, 0);
+      const pendingOrders = db.orders.filter(o => o.status === 'pending').length;
+      const totalOrders = db.orders.length;
+      
+      document.getElementById('dashStats').innerHTML = `
+        <div class="stat-card"><div class="label">Total Revenue</div><div class="value green">${formatNpr(totalRevenue)}</div></div>
+        <div class="stat-card"><div class="label">Total Expenses</div><div class="value red">${formatNpr(totalExpenses)}</div></div>
+        <div class="stat-card"><div class="label">Profit</div><div class="value blue">${formatNpr(totalRevenue - totalExpenses)}</div></div>
+        <div class="stat-card"><div class="label">Pending Orders</div><div class="value yellow">${pendingOrders}</div></div>
+        <div class="stat-card"><div class="label">Total Orders</div><div class="value">${totalOrders}</div></div>
+      `;
+      
+      const recent = db.orders.slice(0, 5);
+      if (recent.length === 0) {
+        document.getElementById('recentOrders').innerHTML = '<div class="empty"><p>No orders yet. Add your first order!</p></div>';
+        return;
+      }
+      document.getElementById('recentOrders').innerHTML = `<table>
+        <tr><th>ID</th><th>Customer</th><th>Items</th><th>Amount</th><th>Status</th><th>Date</th></tr>
+        ${recent.map(o => `<tr>
+          <td>${o.id}</td><td>${o.name}</td><td>${o.items.substring(0, 30)}${o.items.length > 30 ? '...' : ''}</td>
+          <td>${formatNpr(o.amount)}</td><td><span class="badge badge-${o.status}">${o.status}</span></td>
+          <td>${formatDate(o.date)}</td></tr>`).join('')}
+      </table>`;
+    }
+    
+    function renderOrders() {
+      const db = getDB();
+      const statusFilter = document.getElementById('orderStatusFilter')?.value || 'all';
+      const search = (document.getElementById('orderSearch')?.value || '').toLowerCase();
+      
+      let orders = db.orders;
+      if (statusFilter !== 'all') orders = orders.filter(o => o.status === statusFilter);
+      if (search) orders = orders.filter(o => o.name.toLowerCase().includes(search) || o.phone.includes(search));
+      
+      if (orders.length === 0) {
+        document.getElementById('ordersTable').innerHTML = '<div class="empty"><p>No orders found</p></div>';
+        return;
+      }
+      
+      document.getElementById('ordersTable').innerHTML = `<table>
+        <tr><th>ID</th><th>Customer</th><th>Phone</th><th>Location</th><th>Items</th><th>Total</th><th>Status</th><th>Date</th><th>Actions</th></tr>
+        ${orders.map(o => `<tr>
+          <td>${o.id}</td><td>${o.name}</td><td>${o.phone}</td><td>${o.location}</td>
+          <td style="max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${o.items}">${o.items}</td>
+          <td>${formatNpr(o.amount + (o.shipping || 0))}</td>
+          <td>
+            <select onchange="updateOrderStatus('${o.id}', this.value)" style="background:var(--bg);border:1px solid var(--border);color:var(--text);padding:0.3rem;border-radius:4px;font-size:0.75rem">
+              ${['pending','confirmed','shipped','delivered','cancelled'].map(s => `<option value="${s}" ${o.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+            </select>
+          </td>
+          <td>${formatDate(o.date)}</td>
+          <td><button class="btn btn-danger btn-sm" onclick="deleteOrder('${o.id}')">×</button></td>
+        </tr>`).join('')}
+      </table>`;
+    }
+    
+    function renderInventory() {
+      const db = getDB();
+      if (db.inventory.length === 0) {
+        document.getElementById('inventoryTable').innerHTML = '<div class="empty"><p>No inventory items. Add your stock!</p></div>';
+        return;
+      }
+      document.getElementById('inventoryTable').innerHTML = `<table>
+        <tr><th>Product</th><th>Category</th><th>Variant</th><th>Stock</th><th>Cost/Unit</th><th>Actions</th></tr>
+        ${db.inventory.map(i => `<tr>
+          <td>${i.name}</td><td>${i.category}</td><td>${i.variant}</td>
+          <td>${i.stock}</td><td>${formatNpr(i.cost)}</td>
+          <td><button class="btn btn-danger btn-sm" onclick="deleteInventory('${i.id}')">×</button></td>
+        </tr>`).join('')}
+      </table>`;
+    }
+    
+    function renderExpenses() {
+      const db = getDB();
+      const totalExp = db.expenses.reduce((s, e) => s + e.amount, 0);
+      document.getElementById('expenseStats').innerHTML = `
+        <div class="stat-card"><div class="label">Total Expenses</div><div class="value red">${formatNpr(totalExp)}</div></div>
+      `;
+      if (db.expenses.length === 0) {
+        document.getElementById('expensesTable').innerHTML = '<div class="empty"><p>No expenses recorded</p></div>';
+        return;
+      }
+      const sorted = [...db.expenses].sort((a, b) => new Date(b.date) - new Date(a.date));
+      document.getElementById('expensesTable').innerHTML = `<table>
+        <tr><th>Date</th><th>Description</th><th>Category</th><th>Amount</th><th>Actions</th></tr>
+        ${sorted.map(e => `<tr>
+          <td>${formatDate(e.date)}</td><td>${e.desc}</td><td>${e.category}</td>
+          <td>${formatNpr(e.amount)}</td>
+          <td><button class="btn btn-danger btn-sm" onclick="deleteExpense('${e.id}')">×</button></td>
+        </tr>`).join('')}
+      </table>`;
+    }
+    
+    function renderCustomers() {
+      const db = getDB();
+      const customerMap = {};
+      db.orders.forEach(o => {
+        if (!customerMap[o.phone]) {
+          customerMap[o.phone] = { name: o.name, phone: o.phone, location: o.location, orders: 0, spent: 0 };
+        }
+        customerMap[o.phone].orders++;
+        customerMap[o.phone].spent += o.amount + (o.shipping || 0);
+      });
+      const customers = Object.values(customerMap).sort((a, b) => b.spent - a.spent);
+      
+      if (customers.length === 0) {
+        document.getElementById('customersTable').innerHTML = '<div class="empty"><p>Customers appear here when you add orders</p></div>';
+        return;
+      }
+      document.getElementById('customersTable').innerHTML = `<table>
+        <tr><th>Name</th><th>Phone</th><th>Location</th><th>Orders</th><th>Total Spent</th></tr>
+        ${customers.map(c => `<tr>
+          <td>${c.name}</td><td>${c.phone}</td><td>${c.location}</td>
+          <td>${c.orders}</td><td>${formatNpr(c.spent)}</td>
+        </tr>`).join('')}
+      </table>`;
+    }
+    
+    // EXPORT/IMPORT
+    function exportData() {
+      const db = getDB();
+      const blob = new Blob([JSON.stringify(db, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'tfsp-records-' + new Date().toISOString().split('T')[0] + '.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+    
+    function importData(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const data = JSON.parse(e.target.result);
+          if (data.orders && data.inventory && data.expenses) {
+            if (confirm('This will replace all current data. Continue?')) {
+              saveDB(data);
+              render();
+              alert('Data imported successfully!');
+            }
+          } else {
+            alert('Invalid file format');
+          }
+        } catch(err) { alert('Error reading file'); }
+      };
+      reader.readAsText(file);
+    }
+    
+    // INIT
+    render();
+  </script>
+</body>
+</html>
