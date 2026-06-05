@@ -19,9 +19,9 @@ export function SiteNav() {
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
         <li>
-          <a href="/#archive" className={pathname === "/" ? "active" : ""}>
+          <Link href="/#archive" className={pathname === "/" ? "active" : ""}>
             ARCHIVE
-          </a>
+          </Link>
         </li>
         <li>
           <Link href="/shop" className={pathname.startsWith("/shop") ? "active" : ""}>
@@ -34,9 +34,9 @@ export function SiteNav() {
           </Link>
         </li>
         <li>
-          <a href="/#about">
+          <Link href="/#about">
             ABOUT
-          </a>
+          </Link>
         </li>
       </ul>
 

@@ -5,13 +5,13 @@ export function SiteFooter() {
     <footer className="tfsp-footer">
       <ul className="f-links">
         <li>
-          <a href="/#archive">Archive</a>
+          <Link href="/#archive">Archive</Link>
         </li>
         <li>
           <Link href="/checkout">Order</Link>
         </li>
         <li>
-          <a href="/#about">About</a>
+          <Link href="/#about">About</Link>
         </li>
         <li>
           <a href="https://www.instagram.com/tfsp__/" target="_blank" rel="noreferrer">
